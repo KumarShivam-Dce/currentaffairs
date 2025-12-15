@@ -1,0 +1,29 @@
+{
+  "feeds": [
+    {
+      "name": "PIB India",
+      "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1",
+      "description": "Press Information Bureau - Official Government News"
+    },
+    {
+      "name": "The Hindu National",
+      "url": "https://www.thehindu.com/news/national/?service=rss",
+      "description": "National news coverage"
+    },
+    {
+      "name": "Indian Express India",
+      "url": "https://indianexpress.com/section/india/feed/",
+      "description": "Indian Express national news"
+    },
+    {
+      "name": "UN News",
+      "url": "https://www.un.org/en/rss/news.xml",
+      "description": "United Nations news feed"
+    }
+  ]
+}
+```
+
+### **requirements.txt**
+```
+feedparser==6.0.10
